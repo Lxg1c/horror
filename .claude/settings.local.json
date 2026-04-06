@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"C:\\\\Users\\\\teran\\\\My project \\(3\\)\" -type f -name \"*\")",
+      "Bash(find \"C:\\\\Users\\\\teran\\\\My project \\(3\\)\" -type f \\\\\\( -name \"*.cs\" -o -name \"*.json\" -o -name \"*.yaml\" -o -name \"*.yml\" -o -name \"*.txt\" -o -name \"*.asmdef\" \\\\\\))",
+      "Bash(ls -la \"C:\\\\Users\\\\teran\\\\My project \\(3\\)\")",
+      "Bash(find \"C:\\\\Users\\\\teran\\\\My project \\(3\\)/Assets\" -maxdepth 2 -type d)",
+      "Bash(find \"C:\\\\Users\\\\teran\\\\My project \\(3\\)/Assets/Script\" -type f -name \"*.cs\")",
+      "Bash(find \"C:\\\\Users\\\\teran\\\\My project \\(3\\)/Assets\" -type f -name \"*.inputactions\")",
+      "Bash(ls -la \"C:\\\\Users\\\\teran\\\\My project \\(3\\)/Assets/Script/\")",
+      "Bash(find \"C:\\\\Users\\\\teran\\\\My project \\(3\\)/Assets\" -type f -name \"*InputSystem*\")",
+      "Bash(cat \"C:\\\\Users\\\\teran\\\\My project \\(3\\)/My project \\(3\\).slnx\")",
+      "Bash(find \"C:\\\\Users\\\\teran\\\\My project \\(3\\)\" -type f \\\\\\( -name \"*.json\" -o -name \"*.yaml\" -o -name \"*.yml\" \\\\\\))",
+      "Bash(find \"C:\\\\Users\\\\teran\\\\My project \\(3\\)/Assets\" -maxdepth 1 -type f)",
+      "Bash(find 'C:\\\\Users\\\\teran\\\\My project \\(3\\)' -maxdepth 3 -type d)"
+    ]
+  }
+}
